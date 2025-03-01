@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="User Logo">
+        </div>
+        <h1>Complaint Website</h1>
+    </header>
+    <main>
+        <section id="complaints">
+            <h2>Complaints</h2>
+            <ul id="complaint-list">
+                <!-- Complaints will be dynamically added here -->
+                <li>
+                    <span class="complaint-title">Complaint Title</span>
+                    <button class="share-button" onclick="copyLinkToClipboard('link-to-complaint')">Share</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Complaint Website. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
